@@ -58,6 +58,12 @@
                         </div>
                     </div>
                     <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <label for="domicilio" class="form-label">Domicilio Completo (Calle, Número, Piso/Depto, Localidad)</label>
+                            <input type="text" class="form-control" id="domicilio" name="domicilio" placeholder="Ej: Av. San Martín 123, Piso 2 Depto B, CABA" required>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-6 mb-3">
                             <label for="fechaIngreso" class="form-label">Fecha de Ingreso a la Empresa</label>
                             <input type="date" class="form-control" id="fechaIngreso" name="fechaIngreso" required>
@@ -120,7 +126,7 @@
 </div>
 
 <script>
-   const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwMUN3DuJOgqhYoksl84I80HVi2KScMOBUvStXtQJcms_cl4odClzP_7MRhmr_FjGk/exec";
+   const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyY6PKHrmK2GL_aVjrEaTyhUhS2VFQSQEjZkM0Wc81f1D43KtcdEd--melzMq61Jw/exec";
 
     // Activa o desactiva campos de licencia según la respuesta
     function toggleLicenciaFields() {
